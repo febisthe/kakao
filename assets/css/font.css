@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'yoon720';
+  src: url('../fonts/YoonGothicPro720.woff') format(woff);
+}
+
+@font-face {
+  font-family: 'yoon750';
+  src: url('../fonts/YoonGothicPro750.woff') format(woff);
+}

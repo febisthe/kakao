@@ -1,0 +1,33 @@
+.blind { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); } 
+.headline { font-size: 49px; line-height: 1.4; font-family: 'yoon750'; font-weight: bold; } 
+.headline-sm { font-size: 40px; font-family: 'yoon750'; font-weight: bold; line-height: 1.35; } 
+.bar { display: block; width: 100px; height: 2px; background-color: #000; margin: 50px auto 140px; } 
+
+
+/* [공통섹션] */
+.sc-cont { position: relative; height: 750px; background: var(--color1); } 
+.sc-cont .thumb img { position: absolute; top: 36px; left: 50%; width: 473px; margin: 0 0 0 -500px; } 
+.sc-cont .text { position: absolute; top: 220px; left: 50%; margin-left: 90px; } 
+.sc-cont .text h3 { font-family: 'yoon750'; font-size: 40px; font-weight: bold; line-height: 1.35; } 
+.sc-cont .text .txt-box { margin-top: 24px; font-size: 15px; font-weight: 400; color: #666; } 
+.sc-cont .text .desc { overflow: hidden; } 
+.sc-cont .text .line { display: block; } 
+.sc-cont .link-more { position: absolute; top: 438px; left: 50%; margin-left: 90px; } 
+.sc-cont .btn-more { display: flex; align-items: center; justify-content: center; gap: 10px; background-color: #f6f6f6; text-align: center; color: var(--color3); width: 258px; height: 56px; border: 1px solid rgba( 255, 255, 255 , 0.2); border-radius: 10px; } 
+.sc-cont .btn-more img { width: 8px; height: 8px; } 
+.sc-cont .btn-more .more-txt { position: relative; overflow: hidden; } 
+.sc-cont .btn-more .t { letter-spacing: 0.04rem; transition: transform .4s cubic-bezier(.645,.045,.355,1); } 
+.sc-cont .btn-more .t:first-child { transform: translateY(100%); } 
+.sc-cont .btn-more .t:last-child { position: absolute; bottom: 0; left: 0; letter-spacing: 0.04rem; opacity: 1; transform: translateY(0%); white-space: nowrap; } 
+.sc-cont .btn-more:hover { border: 1px solid rgba( 255, 255, 255 , 1); } 
+.sc-cont .btn-more:hover .t:first-child { transform: translateY(0); } 
+.sc-cont .btn-more:hover .t:last-child { transform: translateY(-100%); } 
+.sc-cont.reverse .thumb img { position: absolute; top: 20px; left: 50%; width: 409px; height: 722px; margin-left: 120px; } 
+.sc-cont.reverse .text { position: absolute; top: 172px; left: 50%; margin-left: -470px; } 
+.sc-cont.reverse .text img { width: 440px; margin: 142px 0 0 -8px; } 
+.sc-cont.reverse .link-more { position: absolute; top: 385px; left: 50%; margin-left: -470px; } 
+
+
+/* bg 이미지 */
+.sc-intro .store .ico-google,
+.sc-intro .store .ico-apple { background-image: url('../images/img_common3.png'); background-repeat: no-repeat; } 

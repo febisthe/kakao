@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>카카오뱅크</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="./assets/images/favicon.gif">
+
+  <!-- css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/layout.css">
+
+  <!-- javascript -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="./assets/js/split.min.js"></script>
+  <script src="./assets/js/main.js" defer></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- [헤더] -->
+    <header id="header">
+      <div class="head-inner">
+        <div class="logo">
+          <h1><a href=""><img src="./assets/images/logo_header.svg" alt="카카오뱅크 로고"></a></h1>
+        </div>
+        <button class="btn-gnb">
+          <div class="open-btn">
+            <span class="blind">menu open</span>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <div class="close-btn">
+            <span class="blind">menu close</span>
+            <div class="line rotate"></div>
+            <div class="line"></div>
+          </div>
+        </button>
+        <nav class="gnb">
+          <ul>
+            <li><a href="">은행소개</a></li>
+            <li><a href="">IR투자정보</a></li>
+            <li><a href="">상품안내</a></li>
+            <li><a href="">고객센터</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- [메인] -->
+    <main id="main">
+      <!-- [섹션1] 인트로 -->
+      <section class="sc-intro">
+        <div class="inner">
+          <h2 class="headline">이미 모두의 은행 <br/> 지금은 카카오 뱅크</h2>
+          <div class="text">
+            <p>한 사람, 한 사람을 위해 시작한 은행이 <br/> 더 많은 사람들이 찾는 모두의 은행이 되었습니다.</p>
+            <p>보내고, 받고, 모으고, 쓰는 <br/> 당신의 모든 일이 바뀌고 있습니다.</p>
+          </div>
+          <div class="store">
+            <a href="">
+              <i class="ico-google"></i>
+              <span>Google play</span>
+            </a>
+            <a href="">
+              <i class="ico-apple"></i>
+              <span>App store</span>
+            </a>
+          </div>
+        </div>
+        <div class="bg"></div>
+      </section>
+      <!-- [공통 섹션] 입출금 -->
+      <section class="sc-cont withdrawal" data-motion="motion">
+        <div class="inner">
+          <h2 class="blind">입출금통장</h2>
+          <div class="thumb">
+            <img src="./assets/images/img_cont1.png" alt>
+          </div>
+          <div class="text" data-ani="txt">
+            <h3>
+              <div class="desc"><span class="line">모바일로 더 쉬운</span></div>
+              <div class="desc"><span class="line">계좌개설, 간편한 이체</span></div>
+            </h3>
+            <div class="txt-box">
+              <div class="desc"><span class="line">인증서, OTP 없이 계좌 개설이 간편합니다.</span></div>
+              <div class="desc"><span class="line">여러 건의 이체도 몇 번의 터치로 손쉽게 보낼 수 있습니다.</span></div>
+            </div>
+          </div>
+          <div class="link-more">
+            <button class="btn-more">
+              <div class="more-txt">
+                <p class="t">카카오뱅크 입출금통장</p>
+                <p class="t">카카오뱅크 입출금통장</p>
+              </div>
+              <img src="./assets/images/ico_arrow.png" alt="더보기">            
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- [섹션3] 루프텍스트 -->
+      <section class="sc-loop">
+        <div class="inner">
+          <div class="copy-box top">
+            <span class="round">더 다양해진 디자인</span>
+            <span class="copy">카카오뱅크 프렌즈 체크카드</span>
+            <span class="round">더 다양해진 디자인</span>
+            <span class="copy">카카오뱅크 프렌즈 체크카드</span>
+            <span class="round">더 다양해진 디자인</span>
+            <span class="copy">카카오뱅크 프렌즈 체크카드</span>
+            <span class="round">더 다양해진 디자인</span>
+            <span class="copy">카카오뱅크 프렌즈 체크카드</span>
+            <span class="round">더 다양해진 디자인</span>
+            <span class="copy">카카오뱅크 프렌즈 체크카드</span>
+            <span class="round">더 다양해진 디자인</span>
+            <span class="copy">카카오뱅크 프렌즈 체크카드</span>
+            <span class="round">더 다양해진 디자인</span>
+            <span class="copy">카카오뱅크 프렌즈 체크카드</span>
+            <span class="round">더 다양해진 디자인</span>
+            <span class="copy">카카오뱅크 프렌즈 체크카드</span>
+            <span class="round">더 다양해진 디자인</span>
+            <span class="copy">카카오뱅크 프렌즈 체크카드</span>
+            <span class="round">더 다양해진 디자인</span>
+            <span class="copy">카카오뱅크 프렌즈 체크카드</span>
+            <span class="round">더 다양해진 디자인</span>
+            <span class="copy">카카오뱅크 프렌즈 체크카드</span>
+            <span class="round">더 다양해진 디자인</span>
+            <span class="copy">카카오뱅크 프렌즈 체크카드</span>
+            <span class="round">더 다양해진 디자인</span>
+            <span class="copy">카카오뱅크 프렌즈 체크카드</span>
+            <span class="round">더 다양해진 디자인</span>
+            <span class="copy">카카오뱅크 프렌즈 체크카드</span>
+            <span class="round">더 다양해진 디자인</span>
+            <span class="copy">카카오뱅크 프렌즈 체크카드</span>
+            <span class="round">더 다양해진 디자인</span>
+            <span class="copy">카카오뱅크 프렌즈 체크카드</span>
+            <span class="round">더 다양해진 디자인</span>
+            <span class="copy">카카오뱅크 프렌즈 체크카드</span>
+            <span class="round">더 다양해진 디자인</span>
+            <span class="copy">카카오뱅크 프렌즈 체크카드</span>
+            <span class="round">더 다양해진 디자인</span>
+            <span class="copy">카카오뱅크 프렌즈 체크카드</span>
+            <span class="round">더 다양해진 디자인</span>
+            <span class="copy">카카오뱅크 프렌즈 체크카드</span>
+          </div>
+          <div class="copy-box bottom">
+            실적상관없이
+            <i class="ico-lighting"></i>
+            평일 0.2%
+            <i class="ico-smile"></i>
+            주말 0.4%
+            <i class="ico-crown"></i>
+            캐시백 혜택&nbsp;&nbsp;실적상관없이 
+            <i class="ico-lighting"></i>
+            실적상관없이
+            <i class="ico-lighting"></i>
+            평일 0.2%
+            <i class="ico-smile"></i>
+            주말 0.4%
+            <i class="ico-crown"></i>
+            캐시백 혜택&nbsp;&nbsp;실적상관없이 
+            <i class="ico-lighting"></i>  
+            평일 0.2%
+            <i class="ico-smile"></i>
+            주말 0.4%
+            <i class="ico-crown"></i>
+            캐시백 혜택&nbsp;&nbsp;실적상관없이 
+            <i class="ico-lighting"></i>  
+            평일 0.2%
+            <i class="ico-smile"></i>
+            주말 0.4%
+            <i class="ico-crown"></i>
+            캐시백 혜택&nbsp;&nbsp;실적상관없이 
+            <i class="ico-lighting"></i>  
+            평일 0.2%
+            <i class="ico-smile"></i>
+            주말 0.4%
+            <i class="ico-crown"></i>
+            캐시백 혜택&nbsp;&nbsp;실적상관없이 
+            <i class="ico-lighting"></i>  
+            평일 0.2%
+            <i class="ico-smile"></i>
+            주말 0.4%
+            <i class="ico-crown"></i>
+            캐시백 혜택&nbsp;&nbsp;실적상관없이 
+            <i class="ico-lighting"></i>  
+            평일 0.2%
+            <i class="ico-smile"></i>
+            주말 0.4%
+            <i class="ico-crown"></i>
+            캐시백 혜택&nbsp;&nbsp;실적상관없이 
+            <i class="ico-lighting"></i>  
+            평일 0.2%
+            <i class="ico-smile"></i>
+            주말 0.4%
+            <i class="ico-crown"></i>
+            캐시백 혜택&nbsp;&nbsp;실적상관없이 
+            <i class="ico-lighting"></i>  
+            평일 0.2%
+            <i class="ico-smile"></i>
+            주말 0.4%
+            <i class="ico-crown"></i>
+            캐시백 혜택&nbsp;&nbsp;실적상관없이 
+            <i class="ico-lighting"></i>  
+            평일 0.2%
+            <i class="ico-smile"></i>
+            주말 0.4%
+            <i class="ico-crown"></i>
+            캐시백 혜택&nbsp;&nbsp;실적상관없이 
+            <i class="ico-lighting"></i>  
+            평일 0.2%
+            <i class="ico-smile"></i>
+            주말 0.4%
+            <i class="ico-crown"></i>
+            캐시백 혜택&nbsp;&nbsp;실적상관없이 
+            <i class="ico-lighting"></i>  
+            평일 0.2%
+            <i class="ico-smile"></i>
+            주말 0.4%
+            <i class="ico-crown"></i>
+            캐시백 혜택&nbsp;&nbsp;실적상관없이 
+            <i class="ico-lighting"></i>  
+            평일 0.2%
+            <i class="ico-smile"></i>
+            주말 0.4%
+            <i class="ico-crown"></i>
+            캐시백 혜택&nbsp;&nbsp;실적상관없이 
+            <i class="ico-lighting"></i>  
+            평일 0.2%
+            <i class="ico-smile"></i>
+            주말 0.4%
+            <i class="ico-crown"></i>
+            캐시백 혜택&nbsp;&nbsp;실적상관없이 
+            <i class="ico-lighting"></i>  
+            평일 0.2%
+            <i class="ico-smile"></i>
+            주말 0.4%
+            <i class="ico-crown"></i>
+            캐시백 혜택&nbsp;&nbsp;실적상관없이 
+            <i class="ico-lighting"></i>  
+            평일 0.2%
+            <i class="ico-smile"></i>
+            주말 0.4%
+            <i class="ico-crown"></i>
+            캐시백 혜택&nbsp;&nbsp;실적상관없이 
+            <i class="ico-lighting"></i>  
+            평일 0.2%
+            <i class="ico-smile"></i>
+            주말 0.4%
+            <i class="ico-crown"></i>
+            캐시백 혜택&nbsp;&nbsp;실적상관없이 
+            <i class="ico-lighting"></i>  
+            평일 0.2%
+            <i class="ico-smile"></i>
+            주말 0.4%
+            <i class="ico-crown"></i>
+            캐시백 혜택&nbsp;&nbsp;실적상관없이 
+            <i class="ico-lighting"></i>  
+            평일 0.2%
+            <i class="ico-smile"></i>
+            주말 0.4%
+            <i class="ico-crown"></i>
+            캐시백 혜택&nbsp;&nbsp;실적상관없이 
+            <i class="ico-lighting"></i>  
+            평일 0.2%
+            <i class="ico-smile"></i>
+            주말 0.4%
+            <i class="ico-crown"></i>
+            캐시백 혜택&nbsp;&nbsp;실적상관없이 
+            <i class="ico-lighting"></i>            
+          </div>
+        </div>
+      </section>
+      <!-- [공통 섹션] 예적금 -->
+      <section class="sc-cont reverse savings" data-motion="reverse">
+        <h2 class="blind">예금과 적금</h2>
+        <div class="thumb">
+          <img src="./assets/images/img_cont2.png" alt>
+        </div>
+        <div class="text" data-ani="txt">
+          <h3>
+            <div class="desc"><span class="line">우대조건 없이</span></div>
+            <div class="desc"><span class="line">합리적인 예금과 적금</span></div>
+          </h3>
+          <div class="txt-box">
+            <div class="desc"><span class="line">기대했던 금리와 다르게 복잡한 우대조건에 실망한 적이 있었나요?</span></div>
+            <div class="desc"><span class="line">카카오뱅크의 예금, 적금은 숨겨진 우대조건 없이 누구에게나 편리하고 합리적입니다.</span></div>
+          </div>
+          <img src="./assets/images/img_money.png" alt="적은 금액부터 큰 금액까지, 짧은 기간부터 긴 기간까지, 누구에게나 합리적인">
+        </div>
+        <div class="link-more">
+          <button class="btn-more">
+            <div class="more-txt">
+              <p class="t">자유적금</p>
+              <p class="t">자유적금</p>
+            </div>
+            <img src="./assets/images/ico_arrow.png" alt="더보기">            
+          </button>
+          <button class="btn-more">
+            <div class="more-txt">
+              <p class="t">정기예금</p>
+              <p class="t">정기예금</p>
+            </div>
+            <img src="./assets/images/ico_arrow.png" alt="더보기">            
+          </button>
+        </div>
+      </section>
+      <!-- [공통섹션] 모임통장 -->
+      <section class="sc-cont group" data-motion="motion">
+        <h2 class="blind">모임통장</h2>
+        <div class="thumb">
+          <img src="./assets/images/img_cont3.png" alt>
+        </div>
+        <div class="text" data-ani="txt">
+          <h3>
+            <div class="desc"><span class="line">함께 쓰고 같이 보는</span></div>
+            <div class="desc"><span class="line">모임통장</span></div>
+          </h3>
+          <div class="txt-box">
+            <div class="desc"><span class="line">카카오톡 친구를 바로 모임통장으로 초대하고</span></div>
+            <div class="desc"><span class="line">친구들과 함께 잔액과 입출금 현황을 확인할 수 있습니다.</span></div>
+            <div class="desc"><span class="line">재미있는 메시지 카드로 회비 입금 요청도 해보세요</span></div>
+          </div>
+        </div>
+        <div class="link-more">
+          <button class="btn-more">
+            <div class="more-txt">
+              <p class="t">모임통장</p>
+              <p class="t">모임통장</p>
+            </div>
+            <img src="./assets/images/ico_arrow.png" alt="더보기">            
+          </button>
+        </div>
+      </section>
+      <!-- [섹션6] 슬라이드 -->
+      <section class="sc-slide">
+        <div class="inner">
+          <div class="swiper">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <img src="./assets/images/img_card1.png" alt="길냥이 출신 라이언의 반려동물 춘식이 체크카드">
+                <div class="seq s1"></div>
+              </li> 
+              <li class="swiper-slide">
+                <img src="./assets/images/img_card2.png" alt="춘식이의 집사 라이언 체크카드">
+                <div class="seq s1"></div>
+              </li>
+              <li class="swiper-slide">
+                <img src="./assets/images/img_card3.png" alt="원하는 문구를 입력 할 수 있는 깨끗한 화이트 체크카드">
+                <div class="seq s1"></div>
+              </li>
+              <li class="swiper-slide">
+                <img src="./assets/images/img_card4.png" alt="반투명의 영롱한 옐로우 체크카드">
+              </li>
+              <li class="swiper-slide">
+                <img src="./assets/images/img_card5.png" alt="믿음직스러운 사자 라이언 체크카드">
+              </li>
+              <li class="swiper-slide">
+                <img src="./assets/images/img_card6.png" alt="애교만점 복숭아 어피치 체크카드">
+              </li>
+              <li class="swiper-slide">
+                <img src="./assets/images/img_card7.png" alt="토끼 옷을 입은 무지 체크카드">
+              </li>
+              <li class="swiper-slide">
+                <img src="./assets/images/img_card8.png" alt="작은 악어를 닮은 콘 체크카드">
+              </li>
+              <li class="swiper-slide">
+                <img src="./assets/images/img_card9.png" alt="캐릭터 없이 시크한 블랙 체크카드">
+              </li>
+              <li class="swiper-slide">
+                <img src="./assets/images/img_card2.png" alt="춘식이의 집사 라이언 체크카드">
+                <div class="seq s1"></div>
+              </li>
+              <li class="swiper-slide">
+                <img src="./assets/images/img_card1.png" alt="길냥이 출신 라이언의 반려동물 춘식이 체크카드">
+                <div class="seq s1"></div>
+              </li>
+              <li class="swiper-slide">
+                <img src="./assets/images/img_card3.png" alt="원하는 문구를 입력 할 수 있는 깨끗한 화이트 체크카드">
+                <div class="seq s1"></div>
+              </li>
+              <li class="swiper-slide">
+                <img src="./assets/images/img_card4.png" alt="반투명의 영롱한 옐로우 체크카드">
+              </li>
+              <li class="swiper-slide">
+                <img src="./assets/images/img_card5.png" alt="믿음직스러운 사자 라이언 체크카드">
+              </li>
+              <li class="swiper-slide">
+                <img src="./assets/images/img_card6.png" alt="애교만점 복숭아 어피치 체크카드">
+              </li>
+              <li class="swiper-slide">
+                <img src="./assets/images/img_card7.png" alt="토끼 옷을 입은 무지 체크카드">
+              </li>
+              <li class="swiper-slide">
+                <img src="./assets/images/img_card8.png" alt="작은 악어를 닮은 콘 체크카드">
+              </li>
+              <li class="swiper-slide">
+                <img src="./assets/images/img_card9.png" alt="캐릭터 없이 시크한 블랙 체크카드">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- [섹션7] 비디오 -->
+      <section class="sc-video">
+        <h2 class="headline">friends checkcard</h2>
+        <div class="video">
+          <div class="dark"></div>
+          <video id="video-kb" src="./assets/images/video_bg.mp4" muted="" autoplay="" loop=""></video>
+        </div>
+      </section>
+      <!-- [공통 섹션] 26주적금 -->
+      <section class="sc-cont reverse week" data-motion="reverse">
+        <h2 class="blind">26주 적금</h2>
+        <div class="thumb">
+          <img src="./assets/images/img_cont4.png" alt>
+        </div>
+        <div class="text" data-ani="txt">
+          <h3>
+            <div class="desc"><span class="line">함께 도전해서</span></div>
+            <div class="desc"><span class="line">재미있는 26주 적금</span></div>
+          </h3>
+          <div class="txt-box">
+            <div class="desc"><span class="line">26주동안 변화하는 재미에 빠져있는 사이</span></div>
+            <div class="desc"><span class="line">어느덧 만기 달성 경험을 맛보게 됩니다.</span></div>
+          </div>
+        </div>
+        <div class="link-more">
+          <button class="btn-more">
+            <div class="more-txt">
+              <p class="t">26주적금</p>
+              <p class="t">26주적금</p>
+            </div>
+            <img src="./assets/images/ico_arrow.png" alt="더보기">            
+          </button>
+        </div>
+      </section>
+      <!-- [공통 섹션] 해외송금 -->
+      <section class="sc-cont overseas" data-motion="motion">
+        <h2 class="blind">해외송금</h2>
+        <div class="thumb">
+          <img src="./assets/images/img_cont5.png" alt>
+        </div>
+        <div class="text" data-ani="txt">
+          <h3>
+            <div class="desc"><span class="line">해외계좌송금과</span></div>
+            <div class="desc"><span class="line">WU빠른해외송금을</span></div>
+            <div class="desc"><span class="line">더 쉽고, 저렴하게</span></div>
+          </h3>
+          <div class="txt-box">
+            <div class="desc"><span class="line">해외계좌송금이 가능한 22개국을 포함하여</span></div>
+            <div class="desc"><span class="line">전세계 200여개국으로</span></div>
+            <div class="desc"><span class="line">WU빠른해외송금이 가능합니다</span></div>
+          </div>
+        </div>
+        <div class="link-more">
+          <button class="btn-more">
+            <div class="more-txt">
+              <p class="t">해외송금</p>
+              <p class="t">해외송금</p>
+            </div>
+            <img src="./assets/images/ico_arrow.png" alt="더보기">            
+          </button>
+        </div>
+      </section>
+      <!-- [섹션10] IT기술 -->
+      <section class="sc-techit" >
+        <h2 class="headline-sm">IT 기술로 카카오뱅크를 <br/> 만들어 갑니다.</h2>
+        <span class="bar"></span>
+        <span class="bar_back"></span>
+        <div class="thumb" data-motion="tech">
+          <img src="./assets/images/img_it.png" alt>
+          <ul>
+            <li>
+              <strong>간결하고, 유려하게</strong>
+              <p>작은 모바일 화면에 적합하도록 <br/> 복잡함을 덜어낸 <br/> 유려하고 친화적인 UX</p>
+            </li>
+            <li>
+              <strong>간편한 인증, 철저한 보안</strong>
+              <p>지문, 비밀번호로 간편한 인증 <br/> IT 기술의 강력한 보안 검증과 <br/> 데이터 암호화</p>
+            </li>
+            <li>
+              <strong>Moblie First, One App</strong>
+              <p>모바일에서 뱅킹이 더 쉽고 편리하게 <br/> 여러 앱을 설치할 필요 없이 <br/> 하나의 앱으로</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- [섹션11] 브랜드영상 -->
+      <section class="sc-brand">
+        <div class="inner">
+          <h2 class="headline">브랜드 영상</h2>
+          <span class="bar"></span>
+          <div class="swiper">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <div class="thumb">
+                  <img src="./assets/images/img_brand1.png" alt="또 한번 은행을 새롭게! 카카오뱅크 주택담보대출 전국 광역시까지 확대 주택담보대출의 복잡한 과정을 더 쉽고, 친절하게">
+                </div>
+                <div class="btn-play">
+                  <svg width="3rem" height="3rem" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.7519 7.16795L1.5547 1.03647C0.890146 0.59343 0 1.06982 0 1.86852V14.1315C0 14.9302 0.890144 15.4066 1.5547 14.9635L10.7519 8.83205C11.3457 8.43623 11.3457 7.56377 10.7519 7.16795Z" fill="black"></path>
+                  </svg>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div class="thumb">
+                  <img src="./assets/images/img_brand2.png" alt="세상 모든 모임 친구, 가족, 연인, 동호인끼리 요즘엔 다 여기서 모임">
+                </div>
+                <div class="btn-play">
+                  <svg width="3rem" height="3rem" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.7519 7.16795L1.5547 1.03647C0.890146 0.59343 0 1.06982 0 1.86852V14.1315C0 14.9302 0.890144 15.4066 1.5547 14.9635L10.7519 8.83205C11.3457 8.43623 11.3457 7.56377 10.7519 7.16795Z" fill="black"></path>
+                  </svg>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div class="thumb">
+                  <img src="./assets/images/img_brand3.png" alt="이미 모두의 은행 한 사람, 한 사람을 위해 시작한 은행이 더 많은 사람들이 찾는 모두의 은행이 되었습니다.">
+                </div>
+                <div class="btn-play">
+                  <svg width="3rem" height="3rem" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.7519 7.16795L1.5547 1.03647C0.890146 0.59343 0 1.06982 0 1.86852V14.1315C0 14.9302 0.890144 15.4066 1.5547 14.9635L10.7519 8.83205C11.3457 8.43623 11.3457 7.56377 10.7519 7.16795Z" fill="black"></path>
+                  </svg>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>      
+      </section>
+    </main>
+    <!-- [푸터] -->
+    <footer id="footer">
+      <div class="foot-inner">
+        <div class="col-right">
+          <em>© Kakao Bank</em>
+        </div>
+        <div class="col-left">
+          <ul class="info">
+            <li><a href="">윤리강령</a></li>
+            <li><a href="">카카오뱅크 이용약관</a></li>
+            <li><a href="">전자금융거래 이용약관</a></li>
+            <li><a href="">개인정보 처리방침</a></li>
+            <li><a href="">위치기반 서비스 이용약관</a></li>
+          </ul>
+          <div class="relate">
+            <button class="btn-relate">
+              관련사이트
+              <span class="ico-plus"></span>
+            </button>
+            <ul>
+              <li><a href="">기술블로그</a></li>
+              <li><a href="">금융기술연구소</a></li>
+              <li><a href="">카카오뱅크 인증서</a></li>
+              <li><a href="">카카오뱅크 AD</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
