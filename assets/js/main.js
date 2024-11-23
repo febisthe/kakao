@@ -90,20 +90,6 @@ contTl.from($(this).find('.link-more'),1,{
 })
 })
 
-
-// 카드
-const cardSlide = new Swiper('.sc-slide .swiper', {
-  autoplay: {
-    delay: 0,
-    disableOnInteraction : false,
-    pauseOnMouseEnter: true,
-  },
-  loop:true,
-  speed:1000,
-  slidesPerView:'auto',
-  spaceBetween:22,
-});
-
 // 체크카드영상
 const cardTxt = new SplitType('.sc-video .headline', {types: 'words, chars'}) 
 const cardTl = gsap.timeline({

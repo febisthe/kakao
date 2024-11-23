@@ -41,15 +41,6 @@
 .sc-cont.reverse.savings .link-more img { display: inline-block; width: 6px; height: 9px; margin: 5.5px 0 0 8px; vertical-align: text-top; } 
 
 
-.sc-slide .inner { padding: 120px 0; } 
-.sc-slide .swiper { transform: translate(0, 0); opacity: 1; transition: transform 0.6s 0.1s, opacity 0.6s 0.1s; } 
-.sc-slide .swiper-wrapper { position: relative; left: 0; white-space: nowrap; } 
-.sc-slide .swiper-wrapper .swiper-slide { position: relative; display: inline-block; width: 172px; } 
-.sc-slide .swiper-wrapper .swiper-slide img { width: 100%; } 
-.sc-slide .swiper-wrapper .seq { position: absolute; top: 55px; left: 26px; } 
-.sc-slide .swiper-wrapper .seq.s1 { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 120px; height: 161px; background: url('../images/img_common.png') no-repeat 0 0 / 2760px 161px; } 
-
-
 .sc-video { position: relative; } 
 .sc-video .video > video { width: 100%; height: auto; object-fit: cover; pointer-events: none; } 
 .sc-video .dark { position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: #000; opacity: 0.3; } 
